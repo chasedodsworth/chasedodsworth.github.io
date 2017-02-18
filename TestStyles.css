@@ -22,10 +22,10 @@
 			  color:black
 		  }
 		  a:visited{
-			  color:green
+			  color: lightblue
 		  }
 		  a:hover{
-			  color:brown
+			  color:red
 		  }
 		  a:active{
 			  color:blue
