@@ -1,0 +1,119 @@
+
+/* index page */
+	  body {
+		  background-color: #4C5454
+	  }
+	  .Westbay-Title {
+		  color: #FFFFFF
+	  }
+	  #Welcome-Westbay {
+		  color: #FFFFFF
+	  }
+	  #Summary-Para {
+		  color: #00A7E1
+	  }
+	  #To-Pages {
+		  color: #F34213
+	  }
+	  #intro-para {
+		  background: #E2E2E2
+	  }
+		  a:link {
+			  color:black
+		  }
+		  a:visited{
+			  color:green
+		  }
+		  a:hover{
+			  color:brown
+		  }
+		  a:active{
+			  color:blue
+		  }
+
+/* Hoodie Page style & Shoe Page Style*/
+	  #Sub-heading {
+		  color:white
+	  }
+	  #Sub-heading2 {
+		  color:white
+	  }
+	  .Cat-Two {
+		  color:white;
+		  text-align: center;
+	  }
+	  .Cat-Four {
+		  color:white;
+		  text-align: center;
+	  }
+	  .Cat-Two1{
+		  color:white;
+	  }
+	  .Cat-Four1{
+		  color:white;
+	  }
+	  img {
+    	display: block;
+    	margin: auto;
+    	width: 40%;
+	  }
+	  .Info-Center {
+		  text-align: center
+	  }
+	  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #F34213;
+    color: white;
+	text-align:center;
+}
+/* Contact Us page */
+	  #Welcome-Westbay {
+		  color: #FFFFFF
+	  }
+	  .Sub-heading2 {
+		  color: white
+	  }
+		#Sub-heading3 {
+			color:#00A7E1
+		}
+	input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #00A7E1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #F34213}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
