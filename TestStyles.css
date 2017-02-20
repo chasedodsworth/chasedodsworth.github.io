@@ -4,19 +4,24 @@
 		  background-color: #4C5454
 	  }
 	  .Westbay-Title {
-		  color: #FFFFFF
+		  color: #FFFFFF;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  #Welcome-Westbay {
-		  color: #FFFFFF
+		  color: #FFFFFF;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  #Summary-Para {
-		  color: #00A7E1
+		  color: #00A7E1;
+		font-family: "Times New Roman", Times, serif;
 	  }
 	  #To-Pages {
-		  color: #F34213
+		  color: #F34213;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  #intro-para {
-		  background: #E2E2E2
+		  background: #E2E2E2;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 		  a:link {
 			  color:black
@@ -33,24 +38,30 @@
 
 /* Hoodie Page style & Shoe Page Style*/
 	  #Sub-heading {
-		  color:white
+		  color:white;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  #Sub-heading2 {
-		  color:white
+		  color:white;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  .Cat-Two {
 		  color:white;
 		  text-align: center;
+		  font-family: "Times New Roman", Times, serif;;
 	  }
 	  .Cat-Four {
 		  color:white;
 		  text-align: center;
+		  font-family: "Times New Roman", Times, serif;;
 	  }
 	  .Cat-Two1{
 		  color:white;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  .Cat-Four1{
 		  color:white;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  img {
     	display: block;
@@ -58,7 +69,8 @@
     	width: 40%;
 	  }
 	  .Info-Center {
-		  text-align: center
+		  text-align: center;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  
 table {
@@ -80,13 +92,16 @@ th {
 }
 /* Contact Us page */
 	  #Welcome-Westbay {
-		  color: #FFFFFF
+		  color: #FFFFFF;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 	  .Sub-heading2 {
-		  color: white
+		  color: white;
+		  font-family: "Times New Roman", Times, serif;
 	  }
 		#Sub-heading3 {
-			color:#00A7E1
+			color:#00A7E1;
+			font-family: "Times New Roman", Times, serif;
 		}
 	input[type=text], select {
     width: 100%;
