@@ -50,7 +50,7 @@
 			  color:black
 		  }
 		  a:visited{
-			  color: lightblue
+			  color: red
 		  }
 		  a:hover{
 			  color:Red
@@ -79,7 +79,7 @@
 		  font-family: "Times New Roman", Times, serif;;
 	  }
 	  .Cat-Two1{
-		  color:black
+		  color:black;
 		  font-family: "Times New Roman", Times, serif;
 	  }
 	  .Cat-Four1{
