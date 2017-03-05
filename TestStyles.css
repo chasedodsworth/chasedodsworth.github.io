@@ -3,6 +3,29 @@
 	  body {
 		  background-color: #4C5454
 	  }
+	  div.container {
+		  width: 100%;
+		  border: 1px solid gray;
+	  }
+	  header, footer {
+		  padding: 1em;
+		  color: #FFFFFF;
+		  background-color: black;
+		  clear: left;
+		  text-align: center;
+	  }
+	  nav {
+		  float: left;
+		  max-width: 160px;
+		  margin: 0;
+		  padding: 1em;
+	  }
+	  article {
+		  margin-left: 170px;
+		  border-left: 1px solid black;
+		  padding: 1em;
+		  overflow: hidden;
+	  }
 	  .Westbay-Title {
 		  color: #FFFFFF;
 		  font-family: "Times New Roman", Times, serif;
