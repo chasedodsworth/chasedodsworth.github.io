@@ -35,11 +35,11 @@
 		  font-family: "Times New Roman", Times, serif;
 	  }
 	  #Summary-Para {
-		  color: #00A7E1;
+		  color: black;
 		font-family: "Times New Roman", Times, serif;
 	  }
 	  #To-Pages {
-		  color: #F34213;
+		  color: black;
 		  font-family: "Times New Roman", Times, serif;
 	  }
 	  #intro-para {
@@ -53,10 +53,10 @@
 			  color: lightblue
 		  }
 		  a:hover{
-			  color:red
+			  color:Red
 		  }
 		  a:active{
-			  color:blue
+			  color:dimgrey
 		  }
 
 /* Hoodie Page style & Shoe Page Style*/
@@ -69,21 +69,21 @@
 		  font-family: "Times New Roman", Times, serif;
 	  }
 	  .Cat-Two {
-		  color:white;
+		  color: black;;
 		  text-align: center;
 		  font-family: "Times New Roman", Times, serif;;
 	  }
 	  .Cat-Four {
-		  color:white;
+		  color:black;
 		  text-align: center;
 		  font-family: "Times New Roman", Times, serif;;
 	  }
 	  .Cat-Two1{
-		  color:white;
+		  color:black
 		  font-family: "Times New Roman", Times, serif;
 	  }
 	  .Cat-Four1{
-		  color:white;
+		  color:black;
 		  font-family: "Times New Roman", Times, serif;
 	  }
 	  img {
