@@ -7,10 +7,13 @@
   <title>Westbay </title>
   <meta name="description" content="HTML5 Template">
   <script>
+	  function message() {
+		alert("All fields must be filled out");
+	}
 	  function validateForm() {
     var x = document.forms["myForm"]["firstname"]["lastname"]["Selest One"]["Comment"].value;
     if (x == "") {
-        alert("All fields must be filled out");
+        function message();
         return false;
     }
 }
@@ -35,7 +38,7 @@
     Please complete the fields below and we'll get back to you via email as soon as possible.<br/>
   </p> 
   <div>
-  <form name="myForm"  align="left" action="/action_page_post.php" onSubmit="return validateForm()" method="post">
+  <form name="myForm"  align="left" onSubmit="return validateForm()">
     <label for="firstname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
