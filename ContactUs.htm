@@ -6,6 +6,15 @@
   <meta charset="utf-8">
   <title>Westbay </title>
   <meta name="description" content="HTML5 Template">
+  <script>
+	  function validateForm() {
+    var x = document.forms["myForm"]["firstname"]["lastname"]["Selest One"]["Comment"].value;
+    if (x == "") {
+        alert("All fields must be filled out");
+        return false;
+    }
+}
+	</script>
 
 </head>
 
@@ -26,8 +35,8 @@
     Please complete the fields below and we'll get back to you via email as soon as possible.<br/>
   </p> 
   <div>
-  <form  align="left" action="">
-    <label for="fname">First Name</label>
+  <form name="myForm"  align="left" action="" onSubmit="return validateForm()">
+    <label for="firstname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
@@ -46,8 +55,14 @@ Enter text here...</textarea><br/>
   </form>
   </article>
   <footer>
-      Westbay <br/>
-      "Just do it"
+      <p id="demo"></p>
+
+<script>
+var text = document.createTextNode('Today is:');
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+demo.parentNode.insertBefore(text, demo);
+</script>
     </footer>
 </div>
 </div>
