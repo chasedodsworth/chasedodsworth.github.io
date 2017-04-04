@@ -7,13 +7,11 @@
   <title>Westbay </title>
   <meta name="description" content="HTML5 Template">
   <script>
-	  function message() {
-		alert("All fields must be filled out");
-	}
 	  function validateForm() {
-    var x = document.forms["myForm"]["firstname"]["lastname"]["Selest One"]["Comment"].value;
+    var x = document.forms["myForm"]["firstname"]["lastname"]["Select One"]["Comment"].value;
     if (x == "") {
         function message() {
+		alert("All fields must be filled out.");
         return false;
     }
 }
