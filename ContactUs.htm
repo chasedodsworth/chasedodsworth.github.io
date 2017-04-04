@@ -23,19 +23,21 @@
             document.myForm.lastname.focus() ;
             return false;
          }
+		  if( document.myForm.Select.value == "-1" )
+         {
+            alert( "Please select why you are contacting us!" );
+            return false;
+         }
 		  if( document.myForm.comment.value == "" )
          {
             alert( "Please provide your a comment!" );
             document.myForm.comment.focus() ;
             return false;
 		 }
-         
-         if( document.myForm.Select.value == "-1" )
-         {
-            alert( "Please select why you are contacting us!" );
-            return false;
-         }
-         return( true );
+         else {
+			 alert("We will be contacting you as soon as possible!")
+			 return (true);
+		 }
       }
 	</script>
 
