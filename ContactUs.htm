@@ -6,40 +6,6 @@
   <meta charset="utf-8">
   <title>Westbay </title>
   <meta name="description" content="HTML5 Template">
-  <script>
-	  function validate()
-      {
-      
-         if( document.myForm.firstname.value == "" )
-         {
-            alert( "Please provide your first name!" );
-            document.myForm.firstname.focus() ;
-            return false;
-         }
-         
-         if( document.myForm.lastname.value == "" )
-         {
-            alert( "Please provide your last name!" );
-            document.myForm.lastname.focus() ;
-            return false;
-         }
-		  if( document.myForm.Select.value == "-1" )
-         {
-            alert( "Please select why you are contacting us!" );
-            return false;
-         }
-		  if( document.myForm.comment.value == "" )
-         {
-            alert( "Please provide your a comment!" );
-            document.myForm.comment.focus() ;
-            return false;
-		 }
-         else {
-			 alert("We will be contacting you as soon as possible!")
-			 return (true);
-		 }
-      }
-	</script>
 
 </head>
 
@@ -48,12 +14,19 @@
   <header>
   <h1 align="center" class="Westbay-Title"> Westbay </h1>
   <h2 align="center" id="Welcome-Westbay"> Contact Us </h2>
+  <ul>
+	   <li> <a href="https://chasedodsworth.github.io">Home</a></li>
+    <li class="dropdown">
+	<a href="javascript:void(0)"
+	   class="dropbtn">Products</a>
+	<div class="dropdown-content">
+	  <a href="https://chasedodsworth.github.io/shoes.htm">Shoes</a>
+	  <a href="https://chasedodsworth.github.io/Hoodie.htm">Hoodies</a>
+	  </div>
+	   </li>
+	  <li><a href="https://chasedodsworth.github.io/ContactUs.htm">Contact Us</a></li>
+	  </ul>
   </header>
-  <nav>
-  <a href="https://chasedodsworth.github.io"> Home</a><br/>
-  <a href="https://chasedodsworth.github.io/Hoodie.htm">Hoodies</a><br/>
-  <a href="https://chasedodsworth.github.io/shoes.htm"> Shoes</a><br/>
-  </nav>
   <article>
   <p align="center" id="Sub-heading3"> 
     <b>Want to get in touch with us?</b> <br/>
@@ -87,6 +60,19 @@ var text = document.createTextNode('Today is:');
 var d = new Date();
 document.getElementById("demo").innerHTML = d.toDateString();
 demo.parentNode.insertBefore(text, demo);
+</script>
+   <script>
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+	window.onclick = function(e) {
+		if (!e.target.matches('.dropbtn')) {
+		var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}	
 </script>
     </footer>
 </div>

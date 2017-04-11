@@ -7,25 +7,26 @@
 
   <title>Westbay </title>
   <meta name="description" content="HTML5 Template">
-
 </head>
-
 <body>
   <div class="container">
   <header>
-  <h1 align="center" class="Westbay-Title"> Westbay </h1>
   <p align="center">
   <img src="Assignment2Files/WestbayNew.png" alt="Westbay Logo" width ="120" height="100"/> 
   </p>
-  <p align="center" id="Welcome-Westbay"> 
-    Welcome to Westbay! <br/>
-  </p>
+  <ul>
+	   <li> <a href="https://chasedodsworth.github.io">Home</a></li>
+    <li class="dropdown">
+	<a href="javascript:void(0)"
+	   class="dropbtn">Products</a>
+	<div class="dropdown-content">
+	  <a href="https://chasedodsworth.github.io/shoes.htm">Shoes</a>
+	  <a href="https://chasedodsworth.github.io/Hoodie.htm">Hoodies</a>
+	  </div>
+	   </li>
+	  <li><a href="https://chasedodsworth.github.io/ContactUs.htm">Contact Us</a></li>
+	  </ul>
   </header>
-  <nav>
-	  <a href="https://chasedodsworth.github.io/shoes.htm"> Shoes</a><br/>
-    <a href="https://chasedodsworth.github.io/Hoodie.htm">Hoodies</a><br/>
-    <a href="https://chasedodsworth.github.io/ContactUs.htm">Contact Us</a> <br/>
-    </nav>
   <article>
   <div id="intro-para"><p align="center" id="Summary-Para" width="250">
     If you are looking for a pair of basketball shoes or a hoodie to keep you warm, then we are the place for you.<br/>
@@ -42,6 +43,19 @@ var text = document.createTextNode('Today is:');
 var d = new Date();
 document.getElementById("demo").innerHTML = d.toDateString();
 demo.parentNode.insertBefore(text, demo);
+</script>
+<script>
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+	window.onclick = function(e) {
+		if (!e.target.matches('.dropbtn')) {
+		var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}	
 </script>
     </footer>
   
